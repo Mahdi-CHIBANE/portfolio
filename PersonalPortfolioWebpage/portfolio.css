@@ -1,0 +1,168 @@
+@import url ('https://fonts.googleapis.com/css2? family = Lobster & display = swap');
+#navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  font-size: bold;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: 'Lobster', cursive;
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#D53131;
+}
+
+li{
+  float:right;
+}
+
+li a{
+  display:block;
+  color:white;
+  text-align:center;
+  padding:20px 18px;
+  text-decoration:none;
+}
+
+li a:hover{
+  background-color:#5C8EA7;
+}
+
+#welcome-section{
+  background-color:#394349;
+  margin-top: 0px;
+  padding: 500px;
+  
+}
+.section-title{
+    text-align:center;
+    margin-top: 10px;
+}
+
+#welcome-section h1{
+  color:white;
+  font-size: 60px;
+  margin: 0px;
+}
+
+#welcome-section h3{
+  color:red;
+  font-size: 50px;
+    
+}
+
+#projects{
+   
+    background-color: #45567d;
+    padding: 500px;
+}
+img{
+    height: 300px;
+    width: 250px;
+     margin: 20px;
+   
+}
+
+#allProjects{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px
+}
+
+   
+
+
+#allProjects h3{
+    color: lightyellow;
+    text-align: center;
+    
+}
+
+.titre{
+    color: whitesmoke;
+    margin-top: -400px;
+}
+
+#certificatesAll{
+    background-color: #303841;
+    padding: 500px
+}
+
+#contact{
+    background-color: #4894e0;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    color: azure;
+}
+
+#contact a img{
+    border-radius: 15px;
+    box-shadow:10px 10px 17px 8px #13607F;
+    height: 100px;
+    width: 100px;
+}
+
+
+#certificates a{
+    color: beige;
+    
+}
+
+.titrecert{
+    color: aliceblue;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+
+#certificates{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+    #navbar{
+        width: auto;
+        text-align: left;
+    }
+    
+    #navbar ul{
+        flex-direction: column;
+    }
+
+    #navbar li{
+        padding-left: 4px;
+    }
+    
+    #navbar a{
+        font-size: 20px;
+    }
+    
+    #navbar a:hover{
+        border-bottom: 0;
+    }
+} 
+
+@media only screen and (max-width: 1024px){
+    #allProjects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #certificates{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
